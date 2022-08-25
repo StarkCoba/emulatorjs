@@ -15,6 +15,7 @@ function decryptButton() {
 		var a = document.createElement('a')
 		a.href = URL.createObjectURL(new Blob([window.body]))
 		a.download = 'emulator.js'
+		a.download = 'emu-main.js'
 		a.click()
 	}
 	window.finished = finished
