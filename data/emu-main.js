@@ -2181,14 +2181,14 @@ window.EJS_main = function(_0xa88a13, _0x17edbf, _0x2c1832) {
                                     type = 'wasm';
                                     _0x2458d5 = true;
                                     if ('n64' === _this.system && !_0x2eb141 && _this.coreVer !== 2) {
-                                        type = 'wasm';
+                                        type = 'legacy-wasm';
                                     }
                                     _0x31a5b3 = true;
                                 } else if (_0x9a1f1) {
                                     _0x2458d5 = true;
                                     type = 'asmjs';
                                     if ('n64' === _this.system && !_0x2eb141 && _this.coreVer !== 2) {
-                                        type = 'wasm';
+                                        type = 'legacy-asmjs';
                                     }
                                 }
                                 'undefined' != typeof EJS_CUSTOM_COREFILE && (_0x2458d5 = EJS_CUSTOM_COREFILE);
